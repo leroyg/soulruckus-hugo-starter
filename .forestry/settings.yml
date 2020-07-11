@@ -10,23 +10,10 @@ sections:
   create: none
   match: "*"
 - type: directory
-  path: content/blog
-  label: Post
-  create: documents
-  match: "*"
-  templates:
-  - post
-- type: directory
   path: content/about
   label: About
   create: none
   match: "*"
-- type: directory
-  path: data
-  label: Data
-  create: documents
-  match: "*"
-  new_doc_ext: yml
 - type: directory
   path: content/contact
   label: Contact
